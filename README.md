@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plataforma de Locação de Carros
+Este é um projeto de página única desenvolvido com Next.js. 
+Ela simula uma plataforma de locação de carros, onde os usuários podem buscar veículos com base em:
 
-## Getting Started
+- Fabricante
+- Modelo
+- Ano
+- Tipo de Combustível
 
-First, run the development server:
+# Descrição do Projeto
+Os dados utilizados são obtidos através da API Cars by API-Ninjas, disponível no Rapid API.
+Devido à falta de imagens específicas para os veículos na API, imagens ilustrativas foram utilizadas para representar os carros.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Tecnologias Utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- Node.js: Para o backend e manipulação de APIs.
+- Next.js: Framework para a construção da interface e otimização do SEO.
+- Tailwind CSS: Para estilização moderna e responsiva.
+- Headless UI: Para componentes reutilizáveis.
+
+# Funcionalidades
+- Pesquisa dinâmica por fabricante, modelo, ano ou combustível.
+- Exibição de uma lista de carros baseados nos filtros aplicados.
+- Uso de uma interface amigável e responsiva para facilitar a navegação.
+
+
+
+
+
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
+AngularJS-powered HTML5 Markdown editor.
+
+
+## Installation
+
+
+
+Clonar o repostorio
+
+```sh
+git clone https://github.com/Leparfait22/carShowcase.git
+cd 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instalar as dependências
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install 
+```
+Inicie o servidor de desenvolvimento:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm run dev 
+```
+O projeto foi hospedado no vercel 
+Clique no botão em baixo  para visualizar
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![CarShowCase](https://img.shields.io/badge/CarShowCase-blue)](https://car-showcase-wtsu.vercel.app/)  
