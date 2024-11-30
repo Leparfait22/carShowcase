@@ -6,7 +6,6 @@ import { calculateCarRent } from "../utils";
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 import CarDetails from "./CarDetails";
-// import { fuels } from "../constants";
 
 interface carCardProps {
   car: CarProps;
@@ -68,7 +67,7 @@ const CarCard = ({ car }: carCardProps) => {
         </div>
         <div className=" car-card__btn-container">
           <CustomButton
-            title="View More"
+            title="Ver Mais"
             containerStyle=" w-full py-[16px] rounded-full bg-primary-blue"
             textStyles=" text-white text-[14px] leading-[17px] font-bod"
             rightIcon="/right-arrow.svg"
