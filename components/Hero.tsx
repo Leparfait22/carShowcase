@@ -1,6 +1,5 @@
 "use client";
 
-import { log } from "console";
 import CustomButton from "./CustomButton";
 import Image from "next/image";
 

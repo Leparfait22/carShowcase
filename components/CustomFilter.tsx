@@ -1,7 +1,7 @@
 "use client";
 
 import React, { Fragment, useState } from "react";
-import { CustomFilterProps, optionProps } from "../types";
+import { CustomFilterProps } from "../types";
 import {
   Listbox,
   ListboxButton,
@@ -10,13 +10,11 @@ import {
   Transition,
 } from "@headlessui/react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { updateSearchParams } from "../utils";
+
 
 const CustomFilter = ({ title, options, setFilter }: CustomFilterProps) => {
   
   const [selected, setSelected] = useState(options[0]);
-  // const [filter,setFilter] = useState(null);
 
 
   return (

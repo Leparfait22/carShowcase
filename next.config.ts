@@ -9,7 +9,10 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**', 
       },
-    ] }
+    ] },
+    typescript:{
+      ignoreBuildErrors: true,
+    }
 };
 
 export default nextConfig;

@@ -54,7 +54,7 @@ const CarDetails = ({ isOpen, closeModal, car }: carDetailsProps) => {
                       alt="close"
                       width={20}
                       height={20}
-                      // // className="object-contain"
+                      className="object-contain"
                     />
                   </button>
                   <div className=" flex-1 flex flex-col gap-3">

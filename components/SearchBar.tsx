@@ -26,7 +26,6 @@ const SearchBar = ({setManufacturer, setModel } : searchBarProps) => {
   const [searchManufactuer, setSearchManufacturer] = useState("");
 
   const [searchModel, setSearchModel] = useState("");
-  const router = useRouter();
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -37,9 +36,7 @@ const SearchBar = ({setManufacturer, setModel } : searchBarProps) => {
 
     setModel(searchModel)
     setManufacturer(searchManufactuer)
-    // updateSearchParams(
-    //   searchModel.toLowerCase(), 
-    //    searchManufactuer.toLowerCase());
+    
   };
 
 
