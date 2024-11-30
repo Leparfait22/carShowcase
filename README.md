@@ -1,6 +1,6 @@
 # Plataforma de Locação de Carros
 Este é um projeto de página única desenvolvido com Next.js. 
-Ela simula uma plataforma de locação de carros, onde os usuários podem buscar veículos com base em:
+O projeto simula uma plataforma de locação de carros, onde os usuários podem buscar veículos com base em:
 
 - Fabricante
 - Modelo
