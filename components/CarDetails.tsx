@@ -7,7 +7,6 @@ import {
   TransitionChild,
 } from "@headlessui/react";
 import Image from "next/image";
-import { relative } from "path";
 
 interface carDetailsProps {
   isOpen: boolean;

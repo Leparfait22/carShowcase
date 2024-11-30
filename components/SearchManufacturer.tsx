@@ -14,7 +14,7 @@ import {
 import Image from "next/image";
 import { manufacturers } from "../constants";
 
-const searchManufacturer = ({
+const SearchManufacturer = ({
   selected,
   setSelected,
 }: searchManufacturerProps) => {
@@ -77,4 +77,4 @@ const searchManufacturer = ({
   );
 };
 
-export default searchManufacturer;
+export default SearchManufacturer;

@@ -12,7 +12,7 @@ import {
 import Image from "next/image";
 
 
-const CustomFilter = ({ title, options, setFilter }: CustomFilterProps) => {
+const CustomFilter = ({  options, setFilter }: CustomFilterProps) => {
   
   const [selected, setSelected] = useState(options[0]);
 

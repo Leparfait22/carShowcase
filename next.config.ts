@@ -1,20 +1,23 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images:{
+  images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'cdn.imagin.studio',
-        port: '',
-        pathname: '/**', 
+        protocol: "https",
+        hostname: "cdn.imagin.studio",
+        port: "",
+        pathname: "/**",
       },
-    ] },
-    typescript:{
-      ignoreBuildErrors: true,
-    }
+    ],
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
-
-

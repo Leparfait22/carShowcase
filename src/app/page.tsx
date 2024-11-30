@@ -45,12 +45,8 @@ export default function Home() {
   };
 
   useEffect(() => {
-    console.log(year, model, fuel, manufacturer);
-    console.log(allCars);
     getCars();
   }, [model, fuel, year, limit, manufacturer]);
-
-  const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
 
   return (
     <main className=" overflow-hidden">
